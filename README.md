@@ -60,6 +60,11 @@ brew services restart mongodb-community
 mongosh -u admin -p "***" --authenticationDatabase admin
 ```
 
+# Read MongoDb Data 
+```
+db.table_name.find()
+```
+
 
 
 
