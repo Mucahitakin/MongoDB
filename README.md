@@ -64,6 +64,15 @@ mongosh -u admin -p "***" --authenticationDatabase admin
 ```
 db.table_name.find()
 ```
+# Deleted .json
+
+```
+db.table_name.updateMany(
+    { file_name: { $regex: /\.json$/ } },
+    [{ $set: { file_name: { $replaceOne: { input: "$file_name", find: ".json", replacement: "" } } } }]
+);
+```
+
 
 
 
