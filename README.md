@@ -88,6 +88,10 @@ show collections
 
 ```
 
+# Table Delete datas
+```
+db.table_name.deleteMany({})
+```
 
 
 
