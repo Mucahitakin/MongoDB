@@ -73,6 +73,14 @@ db.table_name.updateMany(
 );
 ```
 
+# Update data
+```
+db.Accounts.updateOne(
+  { _id: ObjectId("67b726a9ead060976ed454e3") }, 
+  { $set: { file_name: "account8" } }
+)
+```
+
 
 
 
