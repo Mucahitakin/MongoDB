@@ -81,6 +81,16 @@ db.Accounts.updateOne(
 )
 ```
 
+# List Database Table
+
+```
+show collections
+
+```
+
+
+
+
 
 
 
